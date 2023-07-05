@@ -7,18 +7,19 @@ html {
     font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-style: italic;
     background-color: rgb(185, 125, 47);
     color: cornsilk;
 }
 
-.button-containers {
+section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.button-containers button {
+button {
     color: cornsilk;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
@@ -29,7 +30,14 @@ html {
     text-align: center;
 }
 
-.button-containers img {
+section p {
+    color: cornsilk;
+    background-color: rgb(185, 125, 47);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+img {
     height: auto;
     width: 400px;
 }
@@ -44,11 +52,17 @@ body {
 
 footer {
     margin-top: auto;
+    background-color: rgb(185, 125, 47);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-footer div p {
-    background-color: rgb(185, 125, 47);
-    color: cornsilk;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+.left {
+    float: left;
+    margin: 0;
+}
+
+.right {
+    float: right;
+    margin: 0;
 }
