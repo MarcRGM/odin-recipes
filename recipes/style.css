@@ -1,0 +1,108 @@
+
+html {
+    background-color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(185, 125, 47);
+    color: cornsilk;
+}
+
+img {
+    height: auto;
+    width: 550px;
+}
+
+.description {
+    float: right;
+    background-color: rgb(185, 125, 47);
+    color: cornsilk;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+.description.sinigang {
+    margin-right: 208px;
+}
+
+.ingredients.adobo {
+    margin-top: -227px;
+    margin-right: 472px;
+}
+
+.ingredients.tinola {
+    margin-top: -255px;
+    margin-right: 277px;
+}
+
+.ingredients.sinigang {
+    margin-top: -255px;
+    margin-right: 378px;
+}
+
+.ingredients {
+    float: right;
+    background-color: rgb(185, 125, 47);
+    color: cornsilk;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 17px;
+}
+
+
+
+.steps {
+    background-color: rgb(185, 125, 47);
+    color: cornsilk;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 17px;
+    text-align: left;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: auto;
+    width: 520px;
+}
+
+footer .adobo {
+    float: right;
+    margin-top: 305px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(185, 125, 47);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .tinola {
+    float: right;
+    margin-top: 200px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(185, 125, 47);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .sinigang {
+    float: right;
+    margin-top: 140px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(185, 125, 47);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}

@@ -1,11 +1,11 @@
 html {
     background-color: cornsilk;
+    font-family:'Courier New', Courier, monospace;
 }
 
-.title {
+h1 {
     text-align: center;
     font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-style: italic;
     background-color: rgb(185, 125, 47);
@@ -22,7 +22,6 @@ section {
 button {
     color: cornsilk;
     font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background-color: rgb(185, 125, 47);
     border-radius: 12px;
@@ -33,7 +32,6 @@ button {
 section p {
     color: cornsilk;
     background-color: rgb(185, 125, 47);
-    font-family: 'Courier New', Courier, monospace;
     padding: 10px;
 }
 
@@ -54,7 +52,6 @@ footer {
     margin-top: auto;
     background-color: rgb(185, 125, 47);
     color: white;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .left {
