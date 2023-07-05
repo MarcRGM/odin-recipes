@@ -3,14 +3,30 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Odin Recipes</title>
+        <title>Filipino Cuisines</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/chicken-adobo.html" target="_blank">Chicken Adobo</a></li>
-            <li><a href="recipes/chicken-tinola.html" target="_blank">Chicken Tinola</a></li>
-            <li><a href="recipes/sinigang-na-bangus.html" target="_blank">Sinigang na Bangus</a></li>
-        </ul>
+    <body>  
+        <h1 class="title">FILIPINO CUISINES</h1>
+        <section class="button-containers">
+            <figure>
+                <img src="recipes/chicken-adobo.jpg" alt="an image of chicken adobo">
+                <figcaption><button class="adobo" onclick="location.href='recipes/chicken-adobo.html'" type="button">
+                Chicken Adobo</button></figcaption>
+            </figure>
+            <figure>
+                <img src="recipes/chicken-tinola.jpg" alt="an image of chicken adobo">
+                <figcaption><button class="tinola" onclick="location.href='recipes/chicken-tinola.html'" type="button">
+                Chicken Tinola</button></figcaption>
+            </figure>
+            <figure>
+                <img src="recipes/sinigang-na-bangus.jpg    " alt="an image of chicken adobo">
+                <figcaption><button class="sinigang" onclick="location.href='recipes/sinigang-na-bangus.html'" type="button">
+                Sinigang na Bangus</button></figcaption>
+            </figure>
+        </section>
+        <footer>
+            <div><p> Credits to TheOdinProject for the guide</p></div>
+        </footer>
     </body>
 </html>
