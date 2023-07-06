@@ -29,6 +29,14 @@ button {
     text-align: center;
 }
 
+button:active {
+    background-color: rgb(149 106 48);
+}
+
+button:hover {
+    background-color: rgb(169 117 48);
+}
+
 section p {
     color: cornsilk;
     background-color: rgb(185, 125, 47);
